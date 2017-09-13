@@ -1,9 +1,9 @@
 server:
   port: 6578
-spring:
-  aop:
-    proxy-target-class: true
-#eureka:
-#  client:
-#    serviceUrl:
-#      defaultZone: http://localhost:8761/eureka/
+#spring:
+#  aop:
+#    proxy-target-class: true
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/

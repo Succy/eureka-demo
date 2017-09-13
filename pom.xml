@@ -18,6 +18,7 @@
         <module>ribbon-consumer</module>
         <module>eureka-feign-client</module>
         <module>eureka-feign-consumer</module>
+        <module>eureka-feign-service</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>

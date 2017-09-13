@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class UserController implements UserServiceApi {
     @Override
-    public Object getUserById(@PathVariable String id) {
+    public String getUserById(@PathVariable String id) {
         return "User id is: " + id;
     }
 }
